@@ -46,7 +46,8 @@ jobs:
 
       - name: Build frontend (without TS check)
         working-directory: Frontend
-        run: vite build
+        run: npx vite build
+
 
 
 
